@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.watermark {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+}
+
+.player-id {
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
